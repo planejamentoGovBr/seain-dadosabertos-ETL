@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_OFJvs6fqEeSZb9m8RR5smA" defaultContext="Producao">
+  <context xmi:id="_OFJvtKfqEeSZb9m8RR5smA" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_OFJvtafqEeSZb9m8RR5smA" comment="" name="senha" prompt="senha?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_Password" value="FTI6base-de-dadosEc4r096uhdGeE6g=="/>
+    <contextParameter xmi:id="_OFJvtqfqEeSZb9m8RR5smA" comment="" name="url" prompt="url?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="http://www.sigs.planejamento.gov.br/solar/"/>
+    <contextParameter xmi:id="_OFJvt6fqEeSZb9m8RR5smA" comment="" name="usuario" prompt="usuario?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OFJvuKfqEeSZb9m8RR5smA" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\sigs\log\"/>
+    <contextParameter xmi:id="_OFJvuafqEeSZb9m8RR5smA" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="C:\temp\sigs\"/>
+    <contextParameter xmi:id="_OFJvuqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value=""/>
+    <contextParameter xmi:id="_OFJvu6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_OFJvvKfqEeSZb9m8RR5smA" comment="" name="login" prompt="login?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OFJvvafqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_OFJvvqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_OFJvv6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="servidor"/>
+  </context>
+  <context xmi:id="_OFJvwKfqEeSZb9m8RR5smA" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_OFJvwafqEeSZb9m8RR5smA" comment="" name="senha" prompt="senha?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_Password" value="FTI6base-de-dadosEc4r096uhdGeE6g=="/>
+    <contextParameter xmi:id="_OFJvwqfqEeSZb9m8RR5smA" comment="" name="url" prompt="url?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="http://www.sigs.planejamento.gov.br/solar/"/>
+    <contextParameter xmi:id="_OFJvw6fqEeSZb9m8RR5smA" comment="" name="usuario" prompt="usuario?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OFJvxKfqEeSZb9m8RR5smA" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/processo_etl/log/sigs/"/>
+    <contextParameter xmi:id="_OFJvxafqEeSZb9m8RR5smA" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/sigs/"/>
+    <contextParameter xmi:id="_OFJvxqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value=""/>
+    <contextParameter xmi:id="_OFJvx6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_OFJvyKfqEeSZb9m8RR5smA" comment="" name="login" prompt="login?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OFJvyafqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_OFJvyqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_OFJvy6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="servidor"/>
+  </context>
+  <context xmi:id="_OFJvzKfqEeSZb9m8RR5smA" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_OFJvzafqEeSZb9m8RR5smA" comment="" name="senha" prompt="senha?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_Password" value="FTI6base-de-dadosEc4r096uhdGeE6g=="/>
+    <contextParameter xmi:id="_OFJvzqfqEeSZb9m8RR5smA" comment="" name="url" prompt="url?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="http://www.sigs.planejamento.gov.br/solar/"/>
+    <contextParameter xmi:id="_OFJvz6fqEeSZb9m8RR5smA" comment="" name="usuario" prompt="usuario?" promptNeeded="false" repositoryContextId="_p9RQAGs3EeSkUJLew0Sarw" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OFJv0KfqEeSZb9m8RR5smA" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/processo_etl/log/sigs/"/>
+    <contextParameter xmi:id="_OFJv0afqEeSZb9m8RR5smA" comment="" name="entrada" prompt="entrada?" promptNeeded="false" repositoryContextId="_U03LoFO5EeSL6ucidPXOtA" type="id_String" value="/entrada/sigs/"/>
+    <contextParameter xmi:id="_OFJv0qfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_AdditionalParams" prompt="con_base-de-dados_AdditionalParams?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value=""/>
+    <contextParameter xmi:id="_OFJv06fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Database" prompt="con_base-de-dados_Database?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_OFJv1KfqEeSZb9m8RR5smA" comment="" name="login" prompt="login?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OFJv1afqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Password" prompt="con_base-de-dados_Password?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_Password" value="Ao15Vsj6d/p/KwPwJosW6A=="/>
+    <contextParameter xmi:id="_OFJv1qfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Port" prompt="con_base-de-dados_Port?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_OFJv16fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_Server" prompt="con_base-de-dados_Server?" promptNeeded="false" repositoryContextId="__Ot5gHWtEeSkjL5NJPvAXQ" type="id_String" value="servidor"/>
+  </context>
+  <parameters xmi:id="_OFJv2KfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJv2afqEeSZb9m8RR5smA" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_OFJv2qfqEeSZb9m8RR5smA" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter xmi:id="_OFJv26fqEeSZb9m8RR5smA" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_OFJv3KfqEeSZb9m8RR5smA" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_OFJv3afqEeSZb9m8RR5smA" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter xmi:id="_OFJv3qfqEeSZb9m8RR5smA" field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter xmi:id="_OFJv36fqEeSZb9m8RR5smA" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter xmi:id="_OFJv4KfqEeSZb9m8RR5smA" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_OFJv4afqEeSZb9m8RR5smA" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_OFJv4qfqEeSZb9m8RR5smA" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter xmi:id="_OFJv46fqEeSZb9m8RR5smA" field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter xmi:id="_OFJv5KfqEeSZb9m8RR5smA" field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter xmi:id="_OFJv5afqEeSZb9m8RR5smA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_OFJv5qfqEeSZb9m8RR5smA" field="CLOSED_LIST" name="DB_VERSION" value="ojdbc14-10g.jar"/>
+    <routinesParameter xmi:id="_OFJv56fqEeSZb9m8RR5smA" id="_ZtXf0HyDEeSU65CiE46G1Q" name="DataOperation"/>
+    <routinesParameter xmi:id="_OFJv6KfqEeSZb9m8RR5smA" id="_ZuoEEHyDEeSU65CiE46G1Q" name="Mathematical"/>
+    <routinesParameter xmi:id="_OFJv6afqEeSZb9m8RR5smA" id="_ZvFXEHyDEeSU65CiE46G1Q" name="Numeric"/>
+    <routinesParameter xmi:id="_OFJv6qfqEeSZb9m8RR5smA" id="_ZvtpMHyDEeSU65CiE46G1Q" name="Relational"/>
+    <routinesParameter xmi:id="_OFJv66fqEeSZb9m8RR5smA" id="_ZzvNkHyDEeSU65CiE46G1Q" name="SQLike"/>
+    <routinesParameter xmi:id="_OFJv7KfqEeSZb9m8RR5smA" id="_ZwP0sHyDEeSU65CiE46G1Q" name="StringHandling"/>
+    <routinesParameter xmi:id="_OFJv7afqEeSZb9m8RR5smA" id="_Zw4G0HyDEeSU65CiE46G1Q" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_OFJv7qfqEeSZb9m8RR5smA" id="_Zx2-QHyDEeSU65CiE46G1Q" name="TalendDate"/>
+    <routinesParameter xmi:id="_OFJv76fqEeSZb9m8RR5smA" id="_ZzFtUHyDEeSU65CiE46G1Q" name="TalendString"/>
+    <routinesParameter xmi:id="_OFJv8KfqEeSZb9m8RR5smA" id="_zgtB4IiPEeC-KetH3rv-_A" name="Comparacao"/>
+    <routinesParameter xmi:id="_OFJv8afqEeSZb9m8RR5smA" id="_T8-eUOrxEeGu1-wpbBWpDQ" name="Descaracterizador"/>
+    <routinesParameter xmi:id="_OFJv8qfqEeSZb9m8RR5smA" id="_F8hQgOuPEeGu1-wpbBWpDQ" name="GeradorDados"/>
+    <routinesParameter xmi:id="_OFJv86fqEeSZb9m8RR5smA" id="_BzipcKC6EeCdXM93-S00hA" name="TrataHierarquia"/>
+    <routinesParameter xmi:id="_OFJv9KfqEeSZb9m8RR5smA" id="_ritAsAnOEeOVYvUh1n_0Og" name="TrataUorg"/>
+    <routinesParameter xmi:id="_OFJv9afqEeSZb9m8RR5smA" id="_o3aBcAwmEeOvaqzLiLQVYg" name="Trata_Nivel_Uorg"/>
+  </parameters>
+  <node xmi:id="_OFJv9qfqEeSZb9m8RR5smA" componentName="tLibraryLoad" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="64">
+    <elementParameter xmi:id="_OFJv96fqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1"/>
+    <elementParameter xmi:id="_OFJv-KfqEeSZb9m8RR5smA" field="MODULE_LIST" name="LIBRARY" value="&quot;acessoSEAIN.jar&quot;"/>
+    <elementParameter xmi:id="_OFJv-afqEeSZb9m8RR5smA" field="TABLE" name="HOTLIBS"/>
+    <elementParameter xmi:id="_OFJv-qfqEeSZb9m8RR5smA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_OFJv-6fqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="Carga Bilioteca"/>
+    <elementParameter xmi:id="_OFJv_KfqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OFJv_afqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_OFJv_qfqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value="Componente responsável por realizar a carga da biblioteca &quot;acessoSEAIN&quot;."/>
+    <elementParameter xmi:id="_OFJv_6fqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+  </node>
+  <node xmi:id="_OFJwAKfqEeSZb9m8RR5smA" componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="64">
+    <elementParameter xmi:id="_OFJwAafqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1"/>
+    <elementParameter xmi:id="_OFJwAqfqEeSZb9m8RR5smA" field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter xmi:id="_OFJwA6fqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;      "/>
+    <elementParameter xmi:id="_OFJwBKfqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#xA;// a piece of code executed in the row&#xA;// loop&#xA;AcessoSEAIN.realizaDownload(context.url, context.usuario, context.senha, context.entrada);"/>
+    <elementParameter xmi:id="_OFJwBafqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;      "/>
+    <elementParameter xmi:id="_OFJwBqfqEeSZb9m8RR5smA" field="CHECK" name="Version_V2_0" value="false"/>
+    <elementParameter xmi:id="_OFJwB6fqEeSZb9m8RR5smA" field="CHECK" name="Version_V3_2" value="false"/>
+    <elementParameter xmi:id="_OFJwCKfqEeSZb9m8RR5smA" field="CHECK" name="Version_V4.0" value="true"/>
+    <elementParameter xmi:id="_OFJwCafqEeSZb9m8RR5smA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;&#xA;import robo.AcessoSEAIN;"/>
+    <elementParameter xmi:id="_OFJwCqfqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="Download &quot;RelatGeral_TransicaoB.csv&quot;."/>
+    <elementParameter xmi:id="_OFJwC6fqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OFJwDKfqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_OFJwDafqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value="Componente responsável por realizar download do arquivo &quot;RelatGeral_TransicaoB.csv&quot;."/>
+    <elementParameter xmi:id="_OFJwDqfqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_OFJwD6fqEeSZb9m8RR5smA" connector="FLOW" name="tJavaFlex_1"/>
+  </node>
+  <node xmi:id="_OFJwEKfqEeSZb9m8RR5smA" componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
+    <elementParameter xmi:id="_OFJwEafqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_2"/>
+    <elementParameter xmi:id="_OFJwEqfqEeSZb9m8RR5smA" field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter xmi:id="_OFJwE6fqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;      "/>
+    <elementParameter xmi:id="_OFJwFKfqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#xA;// a piece of code executed in the row&#xA;// loop&#xA;AcessoSEAIN.realizaDownload(context.url, context.usuario, context.senha, context.entrada);"/>
+    <elementParameter xmi:id="_OFJwFafqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;      "/>
+    <elementParameter xmi:id="_OFJwFqfqEeSZb9m8RR5smA" field="CHECK" name="Version_V2_0" value="false"/>
+    <elementParameter xmi:id="_OFJwF6fqEeSZb9m8RR5smA" field="CHECK" name="Version_V3_2" value="false"/>
+    <elementParameter xmi:id="_OFJwGKfqEeSZb9m8RR5smA" field="CHECK" name="Version_V4.0" value="true"/>
+    <elementParameter xmi:id="_OFJwGafqEeSZb9m8RR5smA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;&#xA;import robo.AcessoSEAIN;"/>
+    <elementParameter xmi:id="_OFJwGqfqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="Download &quot;RelatGeral_TransicaoB.csv&quot;."/>
+    <elementParameter xmi:id="_OFJwG6fqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OFJwHKfqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_OFJwHafqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value="Componente responsável por realizar download do arquivo &quot;RelatGeral_TransicaoB.csv&quot;."/>
+    <elementParameter xmi:id="_OFJwHqfqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_OFJwH6fqEeSZb9m8RR5smA" connector="FLOW" name="tJavaFlex_2"/>
+  </node>
+  <node xmi:id="_OFJwIKfqEeSZb9m8RR5smA" componentName="tJavaFlex" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="384">
+    <elementParameter xmi:id="_OFJwIafqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_3"/>
+    <elementParameter xmi:id="_OFJwIqfqEeSZb9m8RR5smA" field="CHECK" name="DATA_AUTO_PROPAGATE" value="true"/>
+    <elementParameter xmi:id="_OFJwI6fqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_START" value="// start part of your Java code&#xA;      "/>
+    <elementParameter xmi:id="_OFJwJKfqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_MAIN" value="// here is the main part of the component,&#xA;// a piece of code executed in the row&#xA;// loop&#xA;AcessoSEAIN.realizaDownload(context.url, context.usuario, context.senha, context.entrada);"/>
+    <elementParameter xmi:id="_OFJwJafqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE_END" value="// end of the component, outside/closing the loop&#xA;      "/>
+    <elementParameter xmi:id="_OFJwJqfqEeSZb9m8RR5smA" field="CHECK" name="Version_V2_0" value="false"/>
+    <elementParameter xmi:id="_OFJwJ6fqEeSZb9m8RR5smA" field="CHECK" name="Version_V3_2" value="false"/>
+    <elementParameter xmi:id="_OFJwKKfqEeSZb9m8RR5smA" field="CHECK" name="Version_V4.0" value="true"/>
+    <elementParameter xmi:id="_OFJwKafqEeSZb9m8RR5smA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;&#xA;import robo.AcessoSEAIN;"/>
+    <elementParameter xmi:id="_OFJwKqfqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="Download &quot;RelatGeral_TransicaoB.csv&quot;."/>
+    <elementParameter xmi:id="_OFJwK6fqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OFJwLKfqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_OFJwLafqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value="Componente responsável por realizar download do arquivo &quot;RelatGeral_TransicaoB.csv&quot;."/>
+    <elementParameter xmi:id="_OFJwLqfqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_OFJwL6fqEeSZb9m8RR5smA" connector="FLOW" name="tJavaFlex_3"/>
+  </node>
+  <node xmi:id="_OFJwMKfqEeSZb9m8RR5smA" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter xmi:id="_OFJwMafqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter xmi:id="_OFJwMqfqEeSZb9m8RR5smA" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_OFJwM6fqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Início do Download do arquivo&quot;);"/>
+    <elementParameter xmi:id="_OFJwNKfqEeSZb9m8RR5smA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_OFJwNafqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="Mensagem de Inicio"/>
+    <elementParameter xmi:id="_OFJwNqfqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OFJwN6fqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_OFJwOKfqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value="Componente responsavel por indicar inicio de execução do Job."/>
+    <elementParameter xmi:id="_OFJwOafqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_OFJwOqfqEeSZb9m8RR5smA" connector="FLOW" name="tJava_1"/>
+  </node>
+  <node xmi:id="_OFJwO6fqEeSZb9m8RR5smA" componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="544">
+    <elementParameter xmi:id="_OFJwPKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter xmi:id="_OFJwPafqEeSZb9m8RR5smA" field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Download do arquivo finalizado&quot;);"/>
+    <elementParameter xmi:id="_OFJwPqfqEeSZb9m8RR5smA" field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter xmi:id="_OFJwP6fqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="Mensagem Final"/>
+    <elementParameter xmi:id="_OFJwQKfqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OFJwQafqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="true"/>
+    <elementParameter xmi:id="_OFJwQqfqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value="Componente responsavel por indicar fim da execução do Job."/>
+    <elementParameter xmi:id="_OFJwQ6fqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_OFJwRKfqEeSZb9m8RR5smA" connector="FLOW" name="tJava_2"/>
+  </node>
+  <node xmi:id="_OFJwRafqEeSZb9m8RR5smA" componentName="jbl_inda_seain_log" componentVersion="1.0" offsetLabelX="0" offsetLabelY="0" posX="128" posY="640">
+    <elementParameter xmi:id="_OFJwRqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="jbl_inda_seain_log_1"/>
+    <elementParameter xmi:id="_OFJwR6fqEeSZb9m8RR5smA" field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter xmi:id="_OFJwSKfqEeSZb9m8RR5smA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_OFJwSafqEeSZb9m8RR5smA" field="CHECK" name="DUMMY" value="false"/>
+    <elementParameter xmi:id="_OFJwSqfqEeSZb9m8RR5smA" field="CHECK" name="STARTABLE" value="true"/>
+    <elementParameter xmi:id="_OFJwS6fqEeSZb9m8RR5smA" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_OFJwTKfqEeSZb9m8RR5smA" field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_OFJwTafqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="jbl_inda_seain_log"/>
+    <elementParameter xmi:id="_OFJwTqfqEeSZb9m8RR5smA" field="TEXT" name="HINT" value="&lt;b>__UNIQUE_NAME__&lt;/b>&lt;br>__COMMENT__"/>
+    <elementParameter xmi:id="_OFJwT6fqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OFJwUKfqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_OFJwUafqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <connection xmi:id="_OFJwUqfqEeSZb9m8RR5smA" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tLibraryLoad_1" offsetLabelX="0" offsetLabelY="0" source="tLibraryLoad_1" target="tJavaFlex_1">
+    <elementParameter xmi:id="_OFJwU6fqEeSZb9m8RR5smA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_OFJwVKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+    <elementParameter xmi:id="_OFJwVafqEeSZb9m8RR5smA" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_OFJwVqfqEeSZb9m8RR5smA" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_OFJwV6fqEeSZb9m8RR5smA" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_OFJwWKfqEeSZb9m8RR5smA" connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tJavaFlex_1" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_1" target="tJavaFlex_2">
+    <elementParameter xmi:id="_OFJwWafqEeSZb9m8RR5smA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_OFJwWqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1"/>
+    <elementParameter xmi:id="_OFJwW6fqEeSZb9m8RR5smA" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_OFJwXKfqEeSZb9m8RR5smA" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_OFJwXafqEeSZb9m8RR5smA" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_OFJwXqfqEeSZb9m8RR5smA" connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tJavaFlex_2" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_2" target="tJavaFlex_3">
+    <elementParameter xmi:id="_OFJwX6fqEeSZb9m8RR5smA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_OFJwYKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobError2"/>
+    <elementParameter xmi:id="_OFJwYafqEeSZb9m8RR5smA" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_OFJwYqfqEeSZb9m8RR5smA" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_OFJwY6fqEeSZb9m8RR5smA" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_OFJwZKfqEeSZb9m8RR5smA" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJavaFlex_3" offsetLabelX="0" offsetLabelY="0" source="tJavaFlex_3" target="tJava_2">
+    <elementParameter xmi:id="_OFJwZafqEeSZb9m8RR5smA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_OFJwZqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3"/>
+    <elementParameter xmi:id="_OFJwZ6fqEeSZb9m8RR5smA" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_OFJwaKfqEeSZb9m8RR5smA" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_OFJwaafqEeSZb9m8RR5smA" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <connection xmi:id="_OFJwaqfqEeSZb9m8RR5smA" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tLibraryLoad_1">
+    <elementParameter xmi:id="_OFJwa6fqEeSZb9m8RR5smA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_OFJwbKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2"/>
+    <elementParameter xmi:id="_OFJwbafqEeSZb9m8RR5smA" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_OFJwbqfqEeSZb9m8RR5smA" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_OFJwb6fqEeSZb9m8RR5smA" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <subjob xmi:id="_OFJwcKfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJwcafqEeSZb9m8RR5smA" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_OFJwcqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tLibraryLoad_1"/>
+    <elementParameter xmi:id="_OFJwc6fqEeSZb9m8RR5smA" field="TEXT" name="SUBJOB_TITLE" value="Carrega a Robo SEAIN"/>
+    <elementParameter xmi:id="_OFJwdKfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OFJwdafqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_OFJwdqfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJwd6fqEeSZb9m8RR5smA" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_OFJweKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_1"/>
+    <elementParameter xmi:id="_OFJweafqEeSZb9m8RR5smA" field="TEXT" name="SUBJOB_TITLE" value="Executa o Robo SEAIN - 1ª Vez"/>
+    <elementParameter xmi:id="_OFJweqfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OFJwe6fqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_OFJwfKfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJwfafqEeSZb9m8RR5smA" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_OFJwfqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_2"/>
+    <elementParameter xmi:id="_OFJwf6fqEeSZb9m8RR5smA" field="TEXT" name="SUBJOB_TITLE" value="Executa o Robo SEAIN - 2ª Vez (Em caso de erro)"/>
+    <elementParameter xmi:id="_OFJwgKfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OFJwgafqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_OFJwgqfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJwg6fqEeSZb9m8RR5smA" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_OFJwhKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJavaFlex_3"/>
+    <elementParameter xmi:id="_OFJwhafqEeSZb9m8RR5smA" field="TEXT" name="SUBJOB_TITLE" value="Executa o Robo SEAIN - 3ª Vez (Em caso de erro)"/>
+    <elementParameter xmi:id="_OFJwhqfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OFJwh6fqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_OFJwiKfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJwiafqEeSZb9m8RR5smA" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_OFJwiqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter xmi:id="_OFJwi6fqEeSZb9m8RR5smA" field="TEXT" name="SUBJOB_TITLE" value="Inicio"/>
+    <elementParameter xmi:id="_OFJwjKfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OFJwjafqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_OFJwjqfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJwj6fqEeSZb9m8RR5smA" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_OFJwkKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter xmi:id="_OFJwkafqEeSZb9m8RR5smA" field="TEXT" name="SUBJOB_TITLE" value="Fim"/>
+    <elementParameter xmi:id="_OFJwkqfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OFJwk6fqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_OFJwlKfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OFJwlafqEeSZb9m8RR5smA" field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter xmi:id="_OFJwlqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="jbl_inda_seain_log_1"/>
+    <elementParameter xmi:id="_OFJwl6fqEeSZb9m8RR5smA" field="TEXT" name="SUBJOB_TITLE" value="Captura Log"/>
+    <elementParameter xmi:id="_OFJwmKfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OFJwmafqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

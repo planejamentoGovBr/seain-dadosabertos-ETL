@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<externalNode i18n.job.component.parameters="Component Parameters:" i18n.job.properties="Propriedades" i18n.job.values="Values" i18n.mapper.table.for="Mapper table for " i18n.mapper.table.properties="Mapper table Properties" i18n.job.name="Nome" i18n.tmap.matching.mode="Matching-mode" i18n.mapper.table.isminimized="isMinimized" i18n.tmap.isreject="isReject" i18n.tmap.isrejectinnnerjoin="isRejectInnerJoin" i18n.tmap.isinnerjoin="isInnerJoin" i18n.tmap.expressionfilter="expressionFilter" i18n.mapper.table.metadata.entries="Metadata Table Entries" i18n.job.type="Type" i18n.mapper.table.expression="Expressão" i18n.tmap.isnullable="isNullable" i18n.tmap.constraint.entries="Constraint Table Entries" name="tMap_2" preview="pictures/_ZBlwID3TEeSvzKTTN3yLaQ-tMap_2-PREVIEW.bmp">
+  <parameters>
+    <column name="tStatCatcher Statistics">false</column>
+    <column name="Permitir execução em paralelo">false</column>
+    <column name="Mapping links display as: ">AUTO</column>
+    <column name="Temp data directory path: "></column>
+    <column name="Max buffer size (nb of rows): ">2000000</column>
+    <column name="Visualizar informações">true</column>
+    <column name="Comentário"><![CDATA[Componente responsável por mapear os dados da tabela "acordos internacionais", para o arquivo "Dados abertos".]]></column>
+    <column name="Use an existing validation rule">false</column>
+  </parameters>
+  <mapperTable type="input">
+    <table name="row2" matching-mode="UNIQUE_MATCH" lookup-mode="LOAD_ONCE" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false">
+      <metadataTableEntries>
+        <entry name="co_carta_consulta" type="Integer" expression="" isNullable="true"/>
+        <entry name="no_projeto" type="String" expression="" isNullable="true"/>
+        <entry name="sg_projeto" type="String" expression="" isNullable="true"/>
+        <entry name="sg_fonte" type="String" expression="" isNullable="true"/>
+        <entry name="va_dolar" type="Double" expression="" isNullable="true"/>
+        <entry name="no_unidade_federal" type="String" expression="" isNullable="true"/>
+        <entry name="co_sujeito" type="Integer" expression="" isNullable="true"/>
+        <entry name="no_tecnico" type="String" expression="" isNullable="true"/>
+        <entry name="no_setor" type="String" expression="" isNullable="true"/>
+        <entry name="informacoes" type="String" expression="" isNullable="true"/>
+        <entry name="fase" type="String" expression="" isNullable="true"/>
+        <entry name="dt_assinatura" type="String" expression="" isNullable="true"/>
+        <entry name="dt_ultimo_desembolso_vigente" type="String" expression="" isNullable="true"/>
+        <entry name="no_abrangencia_nacional" type="String" expression="" isNullable="true"/>
+        <entry name="aggregation" type="Integer" expression="" isNullable="true"/>
+        <entry name="tipo_operacao" type="String" expression="" isNullable="true"/>
+        <entry name="co_executor" type="Integer" expression="" isNullable="true"/>
+        <entry name="no_executor" type="String" expression="" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="output">
+    <table name="saida_arq" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false">
+      <metadataTableEntries>
+        <entry name="co_carta_consulta" type="String" expression="&quot;\&quot;&quot; + row2.co_carta_consulta + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="no_projeto" type="String" expression="&quot;\&quot;&quot; + row2.no_projeto +&quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="sg_projeto" type="String" expression="&quot;\&quot;&quot; + row2.sg_projeto + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="sg_fonte" type="String" expression="&quot;\&quot;&quot; + row2.sg_fonte + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="va_dolar" type="String" expression="&quot;\&quot;&quot; + row2.va_dolar + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="no_unidade_federal" type="String" expression="&quot;\&quot;&quot; + row2.no_unidade_federal + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="co_sujeito" type="String" expression="&quot;\&quot;&quot; + row2.co_sujeito + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="no_tecnico" type="String" expression="&quot;\&quot;&quot; + row2.no_tecnico + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="no_setor" type="String" expression="&quot;\&quot;&quot; + row2.no_setor + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="informacoes" type="String" expression="&quot;\&quot;&quot; + row2.informacoes + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="fase" type="String" expression="&quot;\&quot;&quot; + row2.fase + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="dt_assinatura" type="String" expression="&quot;\&quot;&quot; + row2.dt_assinatura +&quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="dt_ultimo_desembolso_vigente" type="String" expression="&quot;\&quot;&quot; + row2.dt_ultimo_desembolso_vigente +&quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="no_abrangencia_nacional" type="String" expression="&quot;\&quot;&quot; + row2.no_abrangencia_nacional + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="aggregation" type="String" expression="&quot;\&quot;&quot; + row2.aggregation +&quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="tipo_operacao" type="String" expression="&quot;\&quot;&quot; + row2.tipo_operacao + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="co_executor" type="String" expression="&quot;\&quot;&quot; + row2.co_executor + &quot;\&quot;&quot;" isNullable="true"/>
+        <entry name="no_executor" type="String" expression="&quot;\&quot;&quot; + row2.no_executor +&quot;\&quot;&quot;" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="var">
+    <table name="Var" isMinimized="true" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false"/>
+  </mapperTable>
+</externalNode>

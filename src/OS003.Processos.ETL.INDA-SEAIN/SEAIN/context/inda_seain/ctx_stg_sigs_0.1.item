@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_OOaZY6fqEeSZb9m8RR5smA" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_OOaZZKfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Login" prompt="con_base-de-dados_sigs_Login?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OOaZZafqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Password" prompt="con_base-de-dados_sigs_Password?" promptNeeded="false" type="id_Password" value="PpNuqKPJ9eY="/>
+    <contextParameter xmi:id="_OOaZZqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Database" prompt="con_base-de-dados_sigs_Database?" promptNeeded="false" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_OOaZZ6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Server" prompt="con_base-de-dados_sigs_Server?" promptNeeded="false" type="id_String" value="ip-servidor"/>
+    <contextParameter xmi:id="_OOaZaKfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Port" prompt="con_base-de-dados_sigs_Port?" promptNeeded="false" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_OOaZaafqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Schema" prompt="con_base-de-dados_sigs_Schema?" promptNeeded="false" type="id_String" value="sigs"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OOaZaqfqEeSZb9m8RR5smA" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_OOaZa6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Login" prompt="con_base-de-dados_sigs_Login?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OOaZbKfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Password" prompt="con_base-de-dados_sigs_Password?" promptNeeded="false" type="id_Password" value="KVHdxy7ZsTQKIlkN2bprSOnsvlnMmx+p"/>
+    <contextParameter xmi:id="_OOaZbafqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Database" prompt="con_base-de-dados_sigs_Database?" promptNeeded="false" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_OOaZbqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Server" prompt="con_base-de-dados_sigs_Server?" promptNeeded="false" type="id_String" value="ip-servidor"/>
+    <contextParameter xmi:id="_OOaZb6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Port" prompt="con_base-de-dados_sigs_Port?" promptNeeded="false" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_OOaZcKfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Schema" prompt="con_base-de-dados_sigs_Schema?" promptNeeded="false" type="id_String" value="sigs"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OOaZcafqEeSZb9m8RR5smA" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_OOaZcqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Login" prompt="con_base-de-dados_sigs_Login?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OOaZc6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Password" prompt="con_base-de-dados_sigs_Password?" promptNeeded="false" type="id_Password" value="KVHdxy7ZsTQKIlkN2bprSOnsvlnMmx+p"/>
+    <contextParameter xmi:id="_OOaZdKfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Database" prompt="con_base-de-dados_sigs_Database?" promptNeeded="false" type="id_String" value="base-de-dados"/>
+    <contextParameter xmi:id="_OOaZdafqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Server" prompt="con_base-de-dados_sigs_Server?" promptNeeded="false" type="id_String" value="ip-servidor"/>
+    <contextParameter xmi:id="_OOaZdqfqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Port" prompt="con_base-de-dados_sigs_Port?" promptNeeded="false" type="id_String" value="porta"/>
+    <contextParameter xmi:id="_OOaZd6fqEeSZb9m8RR5smA" comment="" name="con_base-de-dados_sigs_Schema" prompt="con_base-de-dados_sigs_Schema?" promptNeeded="false" type="id_String" value="sigs"/>
+  </talendfile:ContextType>
+</xmi:XMI>

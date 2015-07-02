@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_OJbLsKfqEeSZb9m8RR5smA" name="repository.metadataFileDelimited" dataPackage="_OJbLsafqEeSZb9m8RR5smA" Server="Localhost ip-servidor" FilePath="C:/Users/03362036163/Documents/RelatGeral_Transicao.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_OJbLsafqEeSZb9m8RR5smA" name="repository.metadataFileDelimited" dataManager="_OJbLsKfqEeSZb9m8RR5smA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_OJbLsqfqEeSZb9m8RR5smA" id="_N79cUD3PEeSaufeTFmGYgg" label="layout">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLs6fqEeSZb9m8RR5smA" name="co_carta_consulta" label="co_carta_consulta" length="5" sourceType="INT4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLtKfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLtafqEeSZb9m8RR5smA" name="no_projeto" label="no_projeto" length="250" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLtqfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLt6fqEeSZb9m8RR5smA" name="sg_projeto" label="sg_projeto" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLuKfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLuafqEeSZb9m8RR5smA" name="sg_fonte" label="sg_fonte" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLuqfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLu6fqEeSZb9m8RR5smA" name="va_dolar" label="va_dolar" length="13" precision="2" sourceType="NUMERIC" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLvKfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLvafqEeSZb9m8RR5smA" name="no_unidade_federal" label="no_unidade_federal" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLvqfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLv6fqEeSZb9m8RR5smA" name="co_sujeito" label="co_sujeito" length="13" sourceType="INT4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLwKfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLwafqEeSZb9m8RR5smA" name="no_tecnico" label="no_tecnico" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLwqfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLw6fqEeSZb9m8RR5smA" name="no_setor" label="no_setor" length="76" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLxKfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLxafqEeSZb9m8RR5smA" name="informacoes" label="informacoes" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLxqfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLx6fqEeSZb9m8RR5smA" name="fase" label="fase" length="21" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLyKfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLyafqEeSZb9m8RR5smA" name="dt_assinatura" label="dt_assinatura" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLyqfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLy6fqEeSZb9m8RR5smA" name="dt_ultimo_desembolso_vigente" label="dt_ultimo_desembolso_vigente" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLzKfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLzafqEeSZb9m8RR5smA" name="no_abrangencia_nacional" label="no_abrangencia_nacional" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbLzqfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbLz6fqEeSZb9m8RR5smA" name="aggregation" label="aggregation" length="4" sourceType="INT4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbL0KfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbL0afqEeSZb9m8RR5smA" name="tipo_operacao" label="tipo_operacao" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbL0qfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbL06fqEeSZb9m8RR5smA" name="co_executor" label="co_executor" length="4" sourceType="INT4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbL1KfqEeSZb9m8RR5smA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_OJbL1afqEeSZb9m8RR5smA" name="no_executor" label="no_executor" length="130" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_OJbL1qfqEeSZb9m8RR5smA"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_OPNDk6fqEeSZb9m8RR5smA" defaultContext="Desenvolvimento">
+  <context xmi:id="_OPNDlKfqEeSZb9m8RR5smA" confirmationNeeded="false" name="Desenvolvimento"/>
+  <context xmi:id="_OPNDlafqEeSZb9m8RR5smA" confirmationNeeded="false" name="Homologacao"/>
+  <context xmi:id="_OPNDlqfqEeSZb9m8RR5smA" confirmationNeeded="false" name="Producao"/>
+  <parameters xmi:id="_OPNDl6fqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OPNDmKfqEeSZb9m8RR5smA" field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value=" -Xms256M -Xmx1024M"/>
+    <elementParameter xmi:id="_OPNDmafqEeSZb9m8RR5smA" field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" value="false"/>
+    <elementParameter xmi:id="_OPNDmqfqEeSZb9m8RR5smA" field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter xmi:id="_OPNDm6fqEeSZb9m8RR5smA" field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter xmi:id="_OPNDnKfqEeSZb9m8RR5smA" field="TEXT" name="SCHEMA_OPTIONS" value="none"/>
+    <elementParameter xmi:id="_OPNDnafqEeSZb9m8RR5smA" field="TEXT" name="OEM_CUSTOM_ATTRIBUTE" value=""/>
+    <elementParameter xmi:id="_OPNDnqfqEeSZb9m8RR5smA" field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter xmi:id="_OPNDn6fqEeSZb9m8RR5smA" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_OPNDoKfqEeSZb9m8RR5smA" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter xmi:id="_OPNDoafqEeSZb9m8RR5smA" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter xmi:id="_OPNDoqfqEeSZb9m8RR5smA" field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter xmi:id="_OPNDo6fqEeSZb9m8RR5smA" field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter xmi:id="_OPNDpKfqEeSZb9m8RR5smA" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter xmi:id="_OPNDpafqEeSZb9m8RR5smA" field="CLOSED_LIST" name="DB_VERSION" value="ojdbc14-10g.jar"/>
+    <routinesParameter xmi:id="_OPNDpqfqEeSZb9m8RR5smA" id="_ZtXf0HyDEeSU65CiE46G1Q" name="DataOperation"/>
+    <routinesParameter xmi:id="_OPNDp6fqEeSZb9m8RR5smA" id="_ZuoEEHyDEeSU65CiE46G1Q" name="Mathematical"/>
+    <routinesParameter xmi:id="_OPNDqKfqEeSZb9m8RR5smA" id="_ZvFXEHyDEeSU65CiE46G1Q" name="Numeric"/>
+    <routinesParameter xmi:id="_OPNDqafqEeSZb9m8RR5smA" id="_ZvtpMHyDEeSU65CiE46G1Q" name="Relational"/>
+    <routinesParameter xmi:id="_OPNDqqfqEeSZb9m8RR5smA" id="_ZzvNkHyDEeSU65CiE46G1Q" name="SQLike"/>
+    <routinesParameter xmi:id="_OPNDq6fqEeSZb9m8RR5smA" id="_ZwP0sHyDEeSU65CiE46G1Q" name="StringHandling"/>
+    <routinesParameter xmi:id="_OPNDrKfqEeSZb9m8RR5smA" id="_Zw4G0HyDEeSU65CiE46G1Q" name="TalendDataGenerator"/>
+    <routinesParameter xmi:id="_OPNDrafqEeSZb9m8RR5smA" id="_Zx2-QHyDEeSU65CiE46G1Q" name="TalendDate"/>
+    <routinesParameter xmi:id="_OPNDrqfqEeSZb9m8RR5smA" id="_ZzFtUHyDEeSU65CiE46G1Q" name="TalendString"/>
+    <routinesParameter xmi:id="_OPNDr6fqEeSZb9m8RR5smA" id="_zgtB4IiPEeC-KetH3rv-_A" name="Comparacao"/>
+    <routinesParameter xmi:id="_OPNDsKfqEeSZb9m8RR5smA" id="_T8-eUOrxEeGu1-wpbBWpDQ" name="Descaracterizador"/>
+    <routinesParameter xmi:id="_OPNDsafqEeSZb9m8RR5smA" id="_F8hQgOuPEeGu1-wpbBWpDQ" name="GeradorDados"/>
+    <routinesParameter xmi:id="_OPNDsqfqEeSZb9m8RR5smA" id="_BzipcKC6EeCdXM93-S00hA" name="TrataHierarquia"/>
+    <routinesParameter xmi:id="_OPNDs6fqEeSZb9m8RR5smA" id="_ritAsAnOEeOVYvUh1n_0Og" name="TrataUorg"/>
+    <routinesParameter xmi:id="_OPNDtKfqEeSZb9m8RR5smA" id="_o3aBcAwmEeOvaqzLiLQVYg" name="Trata_Nivel_Uorg"/>
+  </parameters>
+  <node xmi:id="_OPNDtafqEeSZb9m8RR5smA" componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="96">
+    <elementParameter xmi:id="_OPNDtqfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tRunJob_2"/>
+    <elementParameter xmi:id="_OPNDt6fqEeSZb9m8RR5smA" field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter xmi:id="_OPNDuKfqEeSZb9m8RR5smA" field="TEXT" name="CONTEXT_JOB" value=""/>
+    <elementParameter xmi:id="_OPNDuafqEeSZb9m8RR5smA" field="PROCESS_TYPE" name="PROCESS" value="sigs_job02_carga_base-de-dados"/>
+    <elementParameter xmi:id="_OPNDuqfqEeSZb9m8RR5smA" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ZBlwID3TEeSvzKTTN3yLaQ"/>
+    <elementParameter xmi:id="_OPNDu6fqEeSZb9m8RR5smA" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_OPNDvKfqEeSZb9m8RR5smA" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Desenvolvimento"/>
+    <elementParameter xmi:id="_OPNDvafqEeSZb9m8RR5smA" field="TEXT" name="CONTEXT_NAME" value="Default"/>
+    <elementParameter xmi:id="_OPNDvqfqEeSZb9m8RR5smA" field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter xmi:id="_OPNDv6fqEeSZb9m8RR5smA" field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter xmi:id="_OPNDwKfqEeSZb9m8RR5smA" field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter xmi:id="_OPNDwafqEeSZb9m8RR5smA" field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter xmi:id="_OPNDwqfqEeSZb9m8RR5smA" field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter xmi:id="_OPNDw6fqEeSZb9m8RR5smA" field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_OPNDxKfqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter xmi:id="_OPNDxafqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OPNDxqfqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_OPNDx6fqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_OPNDyKfqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_OPNDyafqEeSZb9m8RR5smA" connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node xmi:id="_OPNDyqfqEeSZb9m8RR5smA" componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
+    <elementParameter xmi:id="_OPNDy6fqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter xmi:id="_OPNDzKfqEeSZb9m8RR5smA" field="CHECK" name="START" value="true"/>
+    <elementParameter xmi:id="_OPNDzafqEeSZb9m8RR5smA" field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter xmi:id="_OPNqoKfqEeSZb9m8RR5smA" field="TEXT" name="CONTEXT_JOB" value=""/>
+    <elementParameter xmi:id="_OPNqoafqEeSZb9m8RR5smA" field="PROCESS_TYPE" name="PROCESS" value="sigs_job01_download_file"/>
+    <elementParameter xmi:id="_OPNqoqfqEeSZb9m8RR5smA" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_raQ7AH7WEeSi-LkdNTekAA"/>
+    <elementParameter xmi:id="_OPNqo6fqEeSZb9m8RR5smA" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter xmi:id="_OPNqpKfqEeSZb9m8RR5smA" field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Desenvolvimento"/>
+    <elementParameter xmi:id="_OPNqpafqEeSZb9m8RR5smA" field="TEXT" name="CONTEXT_NAME" value="Default"/>
+    <elementParameter xmi:id="_OPNqpqfqEeSZb9m8RR5smA" field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter xmi:id="_OPNqp6fqEeSZb9m8RR5smA" field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter xmi:id="_OPNqqKfqEeSZb9m8RR5smA" field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter xmi:id="_OPNqqafqEeSZb9m8RR5smA" field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter xmi:id="_OPNqqqfqEeSZb9m8RR5smA" field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter xmi:id="_OPNqq6fqEeSZb9m8RR5smA" field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
+    <elementParameter xmi:id="_OPNqrKfqEeSZb9m8RR5smA" field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter xmi:id="_OPNqrafqEeSZb9m8RR5smA" field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter xmi:id="_OPNqrqfqEeSZb9m8RR5smA" field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter xmi:id="_OPNqr6fqEeSZb9m8RR5smA" field="MEMO" name="COMMENT" value=""/>
+    <elementParameter xmi:id="_OPNqsKfqEeSZb9m8RR5smA" field="CHECK" name="VALIDATION_RULES" value="false"/>
+    <metadata xmi:id="_OPNqsafqEeSZb9m8RR5smA" connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <connection xmi:id="_OPNqsqfqEeSZb9m8RR5smA" connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
+    <elementParameter xmi:id="_OPNqs6fqEeSZb9m8RR5smA" field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter xmi:id="_OPNqtKfqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+    <elementParameter xmi:id="_OPNqtafqEeSZb9m8RR5smA" field="CHECK" name="RESUMING_CHECKPOINT" value="false"/>
+    <elementParameter xmi:id="_OPNqtqfqEeSZb9m8RR5smA" field="TEXT" name="RESUMLABEL" value=""/>
+    <elementParameter xmi:id="_OPNqt6fqEeSZb9m8RR5smA" field="MEMO" name="FAILURE_INSTRUCTIONS" value=""/>
+  </connection>
+  <subjob xmi:id="_OPNquKfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OPNquafqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tRunJob_2"/>
+    <elementParameter xmi:id="_OPNquqfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OPNqu6fqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob xmi:id="_OPNqvKfqEeSZb9m8RR5smA">
+    <elementParameter xmi:id="_OPNqvafqEeSZb9m8RR5smA" field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter xmi:id="_OPNqvqfqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter xmi:id="_OPNqv6fqEeSZb9m8RR5smA" field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

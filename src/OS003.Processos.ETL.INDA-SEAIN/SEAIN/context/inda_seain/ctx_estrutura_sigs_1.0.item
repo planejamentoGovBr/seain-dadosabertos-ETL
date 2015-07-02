@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_OHFpY6fqEeSZb9m8RR5smA" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_OHFpZKfqEeSZb9m8RR5smA" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="C:\temp\sigs\"/>
+    <contextParameter xmi:id="_OHFpZafqEeSZb9m8RR5smA" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="C:\temp\sigs\log\"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OHFpZqfqEeSZb9m8RR5smA" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_OHFpZ6fqEeSZb9m8RR5smA" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="/entrada/sigs/"/>
+    <contextParameter xmi:id="_OHFpaKfqEeSZb9m8RR5smA" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="/processo_etl/log/sigs/"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OHFpaafqEeSZb9m8RR5smA" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_OHFpaqfqEeSZb9m8RR5smA" comment="" name="entrada" prompt="entrada?" promptNeeded="false" type="id_String" value="/entrada/sigs/"/>
+    <contextParameter xmi:id="_OHFpa6fqEeSZb9m8RR5smA" comment="" name="dir_log" prompt="dir_log?" promptNeeded="false" type="id_String" value="/processo_etl/log/sigs/"/>
+  </talendfile:ContextType>
+</xmi:XMI>

@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<externalNode i18n.job.component.parameters="Component Parameters:" i18n.job.properties="Propriedades" i18n.job.values="Values" i18n.mapper.table.for="Mapper table for " i18n.mapper.table.properties="Mapper table Properties" i18n.job.name="Nome" i18n.tmap.matching.mode="Matching-mode" i18n.mapper.table.isminimized="isMinimized" i18n.tmap.isreject="isReject" i18n.tmap.isrejectinnnerjoin="isRejectInnerJoin" i18n.tmap.isinnerjoin="isInnerJoin" i18n.tmap.expressionfilter="expressionFilter" i18n.mapper.table.metadata.entries="Metadata Table Entries" i18n.job.type="Type" i18n.mapper.table.expression="Expressão" i18n.tmap.isnullable="isNullable" i18n.tmap.constraint.entries="Constraint Table Entries" name="tMap_1" preview="pictures/_ZBlwID3TEeSvzKTTN3yLaQ-tMap_1-PREVIEW.bmp">
+  <parameters>
+    <column name="tStatCatcher Statistics">false</column>
+    <column name="Permitir execução em paralelo">false</column>
+    <column name="Mapping links display as: ">AUTO</column>
+    <column name="Temp data directory path: "></column>
+    <column name="Max buffer size (nb of rows): ">2000000</column>
+    <column name="Visualizar informações">true</column>
+    <column name="Comentário"><![CDATA[Componente responsável por mapear os dados do documento "Acordos Internacionais", para a tabela Stage "acordos_internacionais".]]></column>
+    <column name="Use an existing validation rule">false</column>
+  </parameters>
+  <mapperTable type="input">
+    <table name="row1" matching-mode="UNIQUE_MATCH" lookup-mode="LOAD_ONCE" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false">
+      <metadataTableEntries>
+        <entry name="co_carta_consulta" type="String" expression="" isNullable="true"/>
+        <entry name="no_projeto" type="String" expression="" isNullable="true"/>
+        <entry name="sg_projeto" type="String" expression="" isNullable="true"/>
+        <entry name="sg_fonte" type="String" expression="" isNullable="true"/>
+        <entry name="va_dolar" type="String" expression="" isNullable="true"/>
+        <entry name="no_unidade_federal" type="String" expression="" isNullable="true"/>
+        <entry name="co_sujeito" type="String" expression="" isNullable="true"/>
+        <entry name="no_tecnico" type="String" expression="" isNullable="true"/>
+        <entry name="no_setor" type="String" expression="" isNullable="true"/>
+        <entry name="informacoes" type="String" expression="" isNullable="true"/>
+        <entry name="fase" type="String" expression="" isNullable="true"/>
+        <entry name="dt_assinatura" type="String" expression="" isNullable="true"/>
+        <entry name="dt_ultimo_desembolso_vigente" type="String" expression="" isNullable="true"/>
+        <entry name="no_abrangencia_nacional" type="String" expression="" isNullable="true"/>
+        <entry name="aggregation" type="String" expression="" isNullable="true"/>
+        <entry name="tipo_operacao" type="String" expression="" isNullable="true"/>
+        <entry name="co_executor" type="String" expression="" isNullable="true"/>
+        <entry name="no_executor" type="String" expression="" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="output">
+    <table name="saida_bd" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false">
+      <metadataTableEntries>
+        <entry name="co_carta_consulta" type="Integer" expression="(row1.co_carta_consulta == null) || (row1.co_carta_consulta.trim().isEmpty()) ? 0 : ParserUtils.parseTo_Integer(row1.co_carta_consulta)   " isNullable="true"/>
+        <entry name="no_projeto" type="String" expression="routines.StringUtil.padronizarString(row1.no_projeto) " isNullable="true"/>
+        <entry name="sg_projeto" type="String" expression="routines.StringUtil.padronizarString(row1.sg_projeto) " isNullable="true"/>
+        <entry name="sg_fonte" type="String" expression="routines.StringUtil.padronizarString(row1.sg_fonte) " isNullable="true"/>
+        <entry name="va_dolar" type="Double" expression="(row1.va_dolar == null) || (row1.va_dolar.trim().isEmpty()) ? 0: ParserUtils.parseTo_Double(row1.va_dolar.replace(&quot;.&quot;, &quot;&quot;).replace(&quot;,&quot;, &quot;.&quot;))      " isNullable="true"/>
+        <entry name="no_unidade_federal" type="String" expression="routines.StringUtil.padronizarString(row1.no_unidade_federal) " isNullable="true"/>
+        <entry name="co_sujeito" type="Integer" expression="(row1.co_sujeito == null) || (row1.co_sujeito.trim().isEmpty())?0: ParserUtils.parseTo_Integer(row1.co_sujeito)   " isNullable="true"/>
+        <entry name="no_tecnico" type="String" expression="routines.StringUtil.padronizarString(row1.no_tecnico) " isNullable="true"/>
+        <entry name="no_setor" type="String" expression="routines.StringUtil.padronizarString(row1.no_setor) " isNullable="true"/>
+        <entry name="informacoes" type="String" expression="routines.StringUtil.padronizarString(row1.informacoes) " isNullable="true"/>
+        <entry name="fase" type="String" expression="routines.StringUtil.padronizarString(row1.fase) " isNullable="true"/>
+        <entry name="dt_assinatura" type="String" expression="routines.StringUtil.padronizarString(row1.dt_assinatura) " isNullable="true"/>
+        <entry name="dt_ultimo_desembolso_vigente" type="String" expression="routines.StringUtil.padronizarString(row1.dt_ultimo_desembolso_vigente) " isNullable="true"/>
+        <entry name="no_abrangencia_nacional" type="String" expression="routines.StringUtil.padronizarString(row1.no_abrangencia_nacional)  " isNullable="true"/>
+        <entry name="aggregation" type="Integer" expression="(row1.aggregation == null) || (row1.aggregation.trim().isEmpty())? 0 :
+ParserUtils.parseTo_Integer(row1.aggregation)    " isNullable="true"/>
+        <entry name="tipo_operacao" type="String" expression="routines.StringUtil.padronizarString(row1.tipo_operacao)  " isNullable="true"/>
+        <entry name="co_executor" type="Integer" expression="(row1.co_executor == null) || (row1.co_executor.trim().isEmpty())? 0 : ParserUtils.parseTo_Integer(row1.co_executor)    " isNullable="true"/>
+        <entry name="no_executor" type="String" expression="routines.StringUtil.padronizarString(row1.no_executor)  " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="var">
+    <table name="Var" isMinimized="true" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false"/>
+  </mapperTable>
+</externalNode>

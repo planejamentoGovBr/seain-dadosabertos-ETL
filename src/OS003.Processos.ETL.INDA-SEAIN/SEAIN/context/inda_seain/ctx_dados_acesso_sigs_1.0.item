@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_OIzgo6fqEeSZb9m8RR5smA" confirmationNeeded="false" name="Desenvolvimento">
+    <contextParameter xmi:id="_OIzgpKfqEeSZb9m8RR5smA" comment="" name="url" prompt="url?" promptNeeded="false" type="id_String" value="http://www.sigs.planejamento.gov.br/solar/"/>
+    <contextParameter xmi:id="_OIzgpafqEeSZb9m8RR5smA" comment="" name="usuario" prompt="usuario?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OIzgpqfqEeSZb9m8RR5smA" comment="" name="senha" prompt="senha?" promptNeeded="false" type="id_Password" value="FTI6base-de-dadosEc4r096uhdGeE6g=="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OIzgp6fqEeSZb9m8RR5smA" confirmationNeeded="false" name="Homologacao">
+    <contextParameter xmi:id="_OIzgqKfqEeSZb9m8RR5smA" comment="" name="url" prompt="url?" promptNeeded="false" type="id_String" value="http://www.sigs.planejamento.gov.br/solar/"/>
+    <contextParameter xmi:id="_OIzgqafqEeSZb9m8RR5smA" comment="" name="usuario" prompt="usuario?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OIzgqqfqEeSZb9m8RR5smA" comment="" name="senha" prompt="senha?" promptNeeded="false" type="id_Password" value="FTI6base-de-dadosEc4r096uhdGeE6g=="/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OIzgq6fqEeSZb9m8RR5smA" confirmationNeeded="false" name="Producao">
+    <contextParameter xmi:id="_OIzgrKfqEeSZb9m8RR5smA" comment="" name="url" prompt="url?" promptNeeded="false" type="id_String" value="http://www.sigs.planejamento.gov.br/solar/"/>
+    <contextParameter xmi:id="_OIzgrafqEeSZb9m8RR5smA" comment="" name="usuario" prompt="usuario?" promptNeeded="false" type="id_String" value="login"/>
+    <contextParameter xmi:id="_OIzgrqfqEeSZb9m8RR5smA" comment="" name="senha" prompt="senha?" promptNeeded="false" type="id_Password" value="FTI6base-de-dadosEc4r096uhdGeE6g=="/>
+  </talendfile:ContextType>
+</xmi:XMI>
